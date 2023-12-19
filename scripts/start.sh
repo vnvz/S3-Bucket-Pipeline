@@ -1,5 +1,5 @@
 #!/bin/bash
-nomeApp="<NOME-APP>"
+nomeApp="helloreact"
 cd /appdir
 npm install
 
