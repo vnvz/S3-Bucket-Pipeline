@@ -8,6 +8,7 @@ hooks:
     - location: scripts/stop.sh
       timeout: 300
       runas: root
+      ignoreErrors: true
   ApplicationStart:
     - location: scripts/start.sh
       timeout: 300
